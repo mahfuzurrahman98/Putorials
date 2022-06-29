@@ -1,0 +1,102 @@
+/* @font-face {
+    src: url(../toruspro.ttf);
+    font-family: torus;
+} */
+
+body {
+    /* font-family: torus; */
+    font-weight: bold;
+}
+
+.display-6 {
+    font-size: calc(1.1rem + 1vw);
+    font-weight: 380;
+    line-height: 1.2;
+}
+
+.display-9 {
+    font-size: calc(0.75rem + 0.75vw);
+    font-weight: lighter;
+    line-height: 1;
+}
+
+.bg-violet {
+    background-color: #261843;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    /* bottom: 50%; */
+    left: 50%;
+    /* right: 50%; */
+    transform: translate(-50%, -50%);
+}
+
+.banner-img {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+}
+
+.centered-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-violet,
+.btn-violet:hover {
+    color: #261843;
+}
+
+.bg-light-grey {
+    background-color: #f1f1f1;
+}
+
+#switch-input {
+    background-color: #ef4e55;
+    border-color: #ef4e55;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.text-pink {
+    color: #ef4e55;
+}
+
+.bg-pink {
+    background-color: #ef4e55;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.menu-link:hover {
+    color: black;
+}
+
+.menu-divider {
+    text-decoration: none;
+    color: grey;
+}
+
+.head-btn {
+    border: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#map {
+    height: 350px;
+    width: 100%;
+}
