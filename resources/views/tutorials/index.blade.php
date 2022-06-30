@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Tutorials - ELog')
+@section('title', 'Tutorials')
 @section('tut-active', 'active')
 
 @section('main-content')

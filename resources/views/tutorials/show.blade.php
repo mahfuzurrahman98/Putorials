@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', $tutorial->title . ' - ELog')
+@section('title', $tutorial->title)
 
 @section('main-content')
     <div class="container-fluid mt-5 px-lg-3">
@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-12">
                         <i class="fas fa-user-secret"></i>
-                        {{ !is_null($tutorial->username) ? $tutorial->username : $tutorial['author_alt_name'] }}
+                        {{ $tutorial->author_alt_name }}
                     </div>
                     <div class="col-12">
                         <div><i class="far fa-calendar-alt"></i> <span class="text-info">
